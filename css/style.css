@@ -1,5 +1,16 @@
+p,
+.nav-link,
+a,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poppins", sans-serif;
+}
+
 body {
   font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
@@ -42,6 +53,11 @@ h1 > .internaltext {
   font-size: 30px;
   text-transform: uppercase;
 }
+
+.description {
+  padding: 0px 150px;
+}
+
 p {
   color: #b8b6b6;
 }
@@ -127,7 +143,7 @@ footer .nav-link {
 }
 
 .portfolio {
-  padding: 100px 0px;
+  padding: 100px 0px 50px;
 }
 
 .carouselbg > * {
@@ -175,7 +191,7 @@ footer .nav-link {
 
 .txtstyle {
   font-size: 65px;
-
+  color: #ffffff;
   line-height: 66px;
   padding-top: 7px;
   font-family: "Great Vibes", sans-serif;
@@ -393,6 +409,10 @@ footer .nav-link {
 @media (max-width: 768px) {
   .textPad {
     padding: 0px;
+  }
+
+  .description {
+    padding: 0px 0px;
   }
 
   .about {
